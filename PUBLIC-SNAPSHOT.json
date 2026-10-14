@@ -39,8 +39,8 @@
     "mod/STS2_MCP.csproj": "76d53d0c30f23fe0f83240b52d1d51d8638242f06a7194defbeba7ae474abeb0",
     "NOTICE.md": "55da39da8d433c6955f72a6f731051b3078d5e4aa5432f0080f280448d314b79",
     "pyproject.toml": "3bef7c7d9b4d6cd45e20cf3940a09ebef999467587ab757b0aa510c48a278d83",
-    "README.md": "d53c8ad70e9a23c0e0a1457aa91d97cd092bc23094ec92fde4fb518fc4744d70",
-    "requirements-lock.txt": "1dff40bf3cf6d06bfb80184cefbc48b73694f4dc1273133cb03ec3f1e189a72c",
+    "README.md": "de9250de1be1b9a495b473cbad45d78e5010a72c94dfee92ec2af55bf26420f9",
+    "requirements-lock.txt": "aeabcf261a5116bc2b2dee2fcd8de6a0f8da870618b9b4680c7ba776dcaf3412",
     "requirements.txt": "5f0cd1bc40b493af5f764ac9a366773ba8c424fca3fe0269ccbb53f2cabe7702",
     "scripts/launch.ps1": "cff28383a5553c004cb8186f4eab5b0832fce66a011d6a9054ed21dcd3bcb6f7",
     "SECURITY.md": "c03df685415eb1c99de34dc3c18f0b46f4c5e661aa84af14344af24e6f0bd2da",
@@ -48,9 +48,9 @@
     "tests/test_advisor.py": "ff4432a3f996eb32c242389eb1b471b31ef5f68ac8fc65e6535657a597dd746a",
     "tests/test_mcp_stdio.py": "e9f47fbea9e0d3e53ab0d6161d99a085af6adce903638adab5918fd5598a3bde",
     "tools/__init__.py": "226a8bfb8752de9c857704382701afe0b80ac5515aa004bd4923da65e5428948",
-    "tools/check_release.py": "9b4a84553ab79835223dbce56509b50ff83f8d82766489e5b52b0f962afc1911",
+    "tools/check_release.py": "a43dddf0d3e18f36b4e8307ac2e7a61e645070a9d44b3c6f9fc3c7cdd64873e4",
     "tools/drain_trace.py": "3b388066925954820d1c71eb02e0434f215fe2b794f4d1c71ae4d829178498a3",
     "tools/gen_card_kb.py": "983e7fd32433cbdda0be900e157a09596dd69bcaad2d9a147959f47dd3299e60",
-    "VALIDATION.md": "3e20cca4ecd7967f51f56f2cb5a0c4a963b121bbd1df87065f5bd4a547ecf8a6"
+    "VALIDATION.md": "9b4473cac183a98dee57e75906bfe6602a5bc2fe9ecb65467b21895510f2c568"
   }
 }

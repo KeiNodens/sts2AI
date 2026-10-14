@@ -1,5 +1,7 @@
 # sts2AI
 
+[![Python checks](https://github.com/KeiNodens/sts2AI/actions/workflows/ci.yml/badge.svg)](https://github.com/KeiNodens/sts2AI/actions)
+
 Slay the Spire 2を、人間とAIで協力プレイするためのローカルツールです。既存の[STS2MCP](https://github.com/Gennadiyev/STS2MCP)を拡張し、カード効果の整理、行動評価、実行時のトレースと観測を追加しました。
 
 自分のWindows環境で開発した実験的なプロジェクトです。mod/は既存Modの改変版、advisor/は追加したPythonの判断・観測層です。ゲームと第三者Modのバイナリ、セーブ、生成済みの大規模KBは含みません。
@@ -46,7 +48,7 @@ mod/out/STS2_MCP/STS2_MCP.dllをゲームのmodsフォルダーへコピーし�
 
 ## MCPクライアントへの登録
 
-設定例の<repo>を絶対パスに置き換えます。
+設定例の`<repo>`を絶対パスに置き換えます。
 
 ```json
 {

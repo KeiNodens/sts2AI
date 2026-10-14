@@ -49,7 +49,7 @@ def main():
     hashes = inspect()
     manifest = ROOT / "PUBLIC-SNAPSHOT.json"
     if args.refresh_manifest:
-        manifest.write_text(json.dumps({"format": "sts.public-snapshot.v1", "historyIncluded": False, "files": hashes}, indent=2) + "\n", encoding="utf-8")
+        manifest.write_text(json.dumps({"format": "sts.public-snapshot.v1", "historyIncluded": False, "files": hashes}, indent=2) + "\n", encoding="utf-8", newline="\n")
     elif manifest.exists() and json.loads(manifest.read_text(encoding="utf-8"))["files"] != hashes:
         raise ValueError("Source inventory changed; review the changes and run --refresh-manifest")
     print(f"Publication checks passed: {len(hashes)} source files")
